@@ -95,7 +95,7 @@ After pre-training, we need to fine-tune the model on the target kernels. Please
 
 - TASK: "regression" means the regression model; "class" means the classification model.
 - MACHSUITE_KERNEL: set it to [].
-- poly_KERNEL: set it as ["fdtd-2d-large", "gemver-medium", "syr2k", "gemm-p", "jacobi-2d", "trmm-opt"] to include the target kernels. If you want to transfer to the complex kernels, you do not need to regenerate the dataset. We have uploaded the dataset to the github repository.
+- poly_KERNEL: set it as ["fdtd-2d-large", "gemver-medium", "syr2k", "gemm-p", "jacobi-2d", "trmm-opt"] to include the target kernels. If you want to transfer to the complex kernels, you do not need to regenerate the dataset. We have uploaded the dataset to the directory "complex_kernels_regression". Please put it under ./save/programl/v21_MLP-True-round1-40kernel-icmp-feb-db-extended-pseudo-block-connected-hierarchy-regression_edge-position-True_norm_with-invalid_False-normalization_speedup-log2_no_pragma_False_tag_whole-machsuite-poly_perfutil-DSPutil-BRAMutil-LUTutil-FF and rename it as "complex_kernels".
 - transfer_learning: set it to True, since we are fine-tuning.
 - model_path: set it to the pre-trained model path.
 - force_regen: If you are fine-tuning for the first time, please set it to True. It will automatically generate the dataset of the target kernels for you. Otherwise please set it to False.
