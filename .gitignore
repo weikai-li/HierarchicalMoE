@@ -6,4 +6,4 @@ logs
 *.txt
 
 save
-# !save/programl/v21_MLP-True-round1-40kernel-icmp-feb-db-extended-pseudo-block-connected-hierarchy-regression_edge-position-True_norm_with-invalid_False-normalization_speedup-log2_no_pragma_False_tag_whole-machsuite-poly_perfutil-DSPutil-BRAMutil-LUTutil-FF/complex_kernels
+!save/programl/v21_MLP-True-round1-40kernel-icmp-feb-db-extended-pseudo-block-connected-hierarchy-regression_edge-position-True_norm_with-invalid_False-normalization_speedup-log2_no_pragma_False_tag_whole-machsuite-poly_perfutil-DSPutil-BRAMutil-LUTutil-FF/complex_kernels
